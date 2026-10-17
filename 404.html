@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#08161A">
+<meta name="robots" content="noindex">
+<title>Няма такава страница — Владислав Златов, барбер във Варна</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon.ico" sizes="32x32">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="stylesheet" href="styles.css">
+<style>
+  body{ padding-bottom:0; }
+  .e404{
+    position:relative; overflow:hidden;
+    min-height:100svh; display:grid; align-content:center;
+    padding:var(--pad); max-width:var(--maxw); margin:0 auto;
+  }
+  .e404__field{
+    position:absolute; inset:auto 0 0 0; height:100%;
+    background:url("images/fade.svg") bottom center / cover no-repeat;
+    opacity:.7; pointer-events:none;
+    -webkit-mask-image:linear-gradient(to bottom, transparent, #000 35%);
+            mask-image:linear-gradient(to bottom, transparent, #000 35%);
+  }
+  .e404 > *{ position:relative; z-index:2; }
+  .e404 h1{ font-size:clamp(2.2rem,10vw,4.5rem); margin:0 0 1rem; }
+  .e404 p{ color:var(--sand-dim); max-width:36ch; margin:0 0 2rem; }
+</style>
+</head>
+<body>
+<main class="e404">
+  <div class="e404__field" aria-hidden="true"></div>
+  <p class="kicker">404</p>
+  <h1>Няма такава страница</h1>
+  <p>Линкът е стар или сгрешен. Върни се в началото — там са цените и записът.</p>
+  <a class="btn btn--primary" href="./" style="justify-self:start">Към началото</a>
+</main>
+</body>
+</html>

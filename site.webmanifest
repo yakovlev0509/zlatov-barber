@@ -1,0 +1,12 @@
+{
+  "name": "Владислав Златов — барбер, Варна",
+  "short_name": "Zlatov",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#08161A",
+  "theme_color": "#08161A",
+  "icons": [
+    { "src": "apple-touch-icon.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "images/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}
